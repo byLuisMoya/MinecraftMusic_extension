@@ -1,7 +1,13 @@
 let songs = [
     "./canciones/C418 - Haggstrom.mp3", 
     "./canciones/C418 - Wet Hands.mp3", 
-    "./canciones/C418 - Dry Hands.mp3"
+    "./canciones/C418 - Dry Hands.mp3",
+    "./canciones/C418 - Sweden.mp3",
+    "./canciones/C418 - Subwoofer Lullaby.mp3",
+    "./canciones/C418 - Droopy likes Ricochet.mp3",
+    "./canciones/C418 - Droopy likes your Face.mp3",
+    "./canciones/C418 - Équinoxe.mp3",
+    "./canciones/C418 - Moog City.mp3",
 ];
 let currentSong = 0;
 let sound = new Audio(songs[currentSong]);
