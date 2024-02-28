@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Minecraft Music",
+    "version": "2.2",
+    "description": "Esta es una extensión para que puedas escuchar la música de Minecraft mientras navegas.",
+    "icons": {
+        "128": "icon.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": ["tabs", "storage"]
+}
